@@ -1,0 +1,33 @@
+# Model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Datasets
+*.zip
+dataset/
+run_dataset/
+local_dataset/
+
+# Generated images (keep only docs/sample_outputs)
+generated/
+samples/
+*.png
+*.jpg
+*.jpeg
+!docs/sample_outputs/*.png
+
+# Logs
+logs/
+*.log
+console_train_log*.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System
+.DS_Store
